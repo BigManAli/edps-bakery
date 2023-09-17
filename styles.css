@@ -1,0 +1,52 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #0c5968;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: verdana;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: black;
+}
+
+body {
+	background-image: url("cupcakesbackground.jpg");
+	background-size: 600px 600px;
+    background-color: lightblue;
+}
+
+h1 {
+  font-family: helvetica;
+  color: white;
+  text-align: left;
+}
+
+p {
+  font-family: verdana;
+  font-size: 32px;
+  color: white;
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  width: 40%;
+  padding: 15px;
+  font-family: helvetica;
+  text-align: center;
+  color: white;
+}
